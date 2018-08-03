@@ -7,12 +7,20 @@
   },
 
   "WEB_SVR_DETAILS" : {
-    "URI_PATH": ["some_unique_path"]
+    "URI_PATH": ["some_unique_path"],
+    "hostname": ["address_of_flask_svr"],
+    "port": ["8080"]
+    
   },
 
   "EMAIL_INFO": {
     "SENDER": ["johndoe@example.com"],
     "RECIPIENT": ["janedoe@example.com"],
     "SUBJECT": ["Canary Document Opened"]
-  }
+  },
+
+  "DOC_INFO": {
+    "organisation": ["ACME Inc"],
+    "canary_email_domain": ["@example.com"],
+    "template_filename": ["template.docx"]
 }
