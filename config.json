@@ -1,0 +1,18 @@
+{
+  "MAIL_SERVER" : {
+    "hostname": ["some_mail_server_provider"],
+    "port": ["587"],
+    "username":["johndoe"],
+    "password":["password"]
+  },
+
+  "WEB_SVR_DETAILS" : {
+    "URI_PATH": ["some_unique_path"]
+  },
+
+  "EMAIL_INFO": {
+    "SENDER": ["johndoe@example.com"],
+    "RECIPIENT": ["janedoe@example.com"],
+    "SUBJECT": ["Canary Document Opened"]
+  }
+}

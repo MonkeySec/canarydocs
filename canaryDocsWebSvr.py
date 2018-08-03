@@ -25,7 +25,7 @@ def handleCanaryDoc(e):
 
                 headers += "URI Path: %s\n" % request.path
 
-		msg = Message('Canary Document Opened', sender = '', recipients = [''])
+		msg = Message('', sender = '', recipients = [''])
 		msg.body = headers
 		print mail.send(msg)
 		print msg
